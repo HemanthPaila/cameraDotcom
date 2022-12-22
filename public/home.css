@@ -1,0 +1,32 @@
+/* navigation bar styling */
+li.nav-item
+{
+    margin-left: 25px;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 20px;
+    border-style: solid;
+}
+ul.navbar-nav
+{
+    margin-right:25px;
+}
+a.navbar-brand
+{
+    margin-left: 130px;
+}
+/* carousel1 styling */
+div.carousel-heading
+{
+    margin-left: 130px;
+}
+div.carousel-paragraph p{
+    width:50%;
+    height:30%;
+}
+div.carousel-paragraph
+{
+    margin-left: 130px;
+    font-size:20px;
+    display:inline-block;
+}

@@ -1,0 +1,122 @@
+/* navigation bar styling */
+li.nav-item {
+  margin-left: 25px;
+}
+nav.navbar {
+  border-bottom: solid;
+  border-color: #f7f7f7;
+}
+ul.navbar-nav {
+  margin-right: 25px;
+}
+
+a.navbar-brand {
+  margin-left: 130px;
+}
+li.nav-item:hover {
+  border-radius: 20px;
+  background-color: #f7f7f7;
+  color: black;
+}
+/* division1 styling */
+.division1 {
+  position: relative;
+  height: 700px;
+  display: block;
+  border-bottom: solid;
+  border-color: #f7f7f7;
+}
+div.contant-link h1 {
+  font-size: 15px;
+  text-decoration: underline;
+  color: black;
+}
+.division1 h1 {
+  font-family: "Montserrat", sans-serif;
+  width: 500px;
+}
+.img-sec img {
+  height: 600px;
+  width: 500px;
+  position: absolute;
+  right: 100px;
+  top: 50px;
+  border-radius: 10px;
+}
+
+/* division2 styling */
+.division2 {
+  height: 500px;
+  background-color: #f7f7f7;
+  border-bottom: solid;
+  border-color: #f7f7f7;
+}
+div.flex-container {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+div.step1 {
+  height: 400px;
+  width: 30%;
+  margin-left: 30px;
+  font-size: large;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 10px;
+}
+div.step2 {
+  height: 400px;
+  width: 30%;
+  margin-left: 30px;
+  font-size: large;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 10px;
+}
+div.step3 {
+  height: 400px;
+  width: 30%;
+  margin-left: 30px;
+  font-size: large;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 10px;
+}
+.division2 .heading {
+  text-align: center;
+}
+/* division3 styling */
+.division3 {
+  height: 500px;
+  position: relative;
+  border-bottom: solid;
+  border-color: #f7f7f7;
+  /* display: flex; */
+}
+div.question {
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+div.question h1 {
+  display: inline-block;
+}
+div.question-and-answers {
+  width: 700px;
+  position: absolute;
+  right: 100px;
+}
+/* fotter styling */
+fotter div {
+  height: 250px;
+  background-color: #f7f7f7;
+}
