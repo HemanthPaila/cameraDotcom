@@ -150,9 +150,27 @@ div.question-and-answers {
   width: 700px;
   position: absolute;
   right: 100px;
+  top: 50px;
+  font-family: "Montserrat", sans-serif;
+  /* position: relative; */
+}
+.question-and-answers img {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  right: 10px;
 }
 /* fotter styling */
 fotter div {
-  height: 250px;
+  height: 300px;
   background-color: #f7f7f7;
+}
+.division4-sections {
+  display: flex;
+}
+.division4-sec {
+  height: 250px;
+  width: 20%;
+  margin-left: 40px;
+  margin-right: 40px;
 }
