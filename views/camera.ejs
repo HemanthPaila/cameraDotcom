@@ -41,7 +41,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="/camera">Camera Setup</a>
+                        <a class="nav-link active" href="#">Camera Setup</a>
                     </li>
                 </ul>
             </div>
@@ -49,21 +49,24 @@
     </nav>
     <!-- division1 -->
     <div class="division1">
+        <div class="img-sec">
+            <img src="/images/camera.jpg" alt="camera">
+        </div>
+        <div class="division1-left-container">
         <div class="content">
             <h1>welcome</h1>
             <h1>You could earn</h1>
         </div>
-        <div class="img-sec">
-            <img src="/images/camera.jpg" alt="camera">
+        <div class="content-link">
+            <h1 class="amount">₹1250</h1>
+            <h1 class="amount-content">is an estimated pay for <u><u class="pics-count">50</u> <u>pic</u></u></h1>
         </div>
-        <div>
-            <h1>20,000</h1>
+        <div class="range-ele">
+            <input id="fun-range" type="range" min="1" value=50 max="100" step="1" oninput="updateamount()"/>
         </div>
-        <div>
-            <input type="range" min="1" max="20" step="1"/>
+        <div class="content-link">
+            <h1 class="underline-content">Learn how we estimate your earnings</h1>
         </div>
-        <div class="contant-link">
-            <a href="#"><h1>Learn how we estimate your earnings</h1></a>
         </div>
     </div>
     <!-- division2 -->
@@ -121,5 +124,6 @@
 
         </div>
     </fotter>
+    <script type="text/javascript" src="/script/camera.js"></script>
 </body>
 </html>

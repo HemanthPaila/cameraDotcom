@@ -26,10 +26,15 @@ li.nav-item:hover {
   border-bottom: solid;
   border-color: #f7f7f7;
 }
-div.contant-link h1 {
-  font-size: 15px;
+div.content-link h1.underline-content {
+  font-size: 20px;
   text-decoration: underline;
   color: black;
+  font-family: "Montserrat", sans-serif;
+}
+div.content-link .amount {
+  font-size: 100px;
+  text-decoration: none;
 }
 .division1 h1 {
   font-family: "Montserrat", sans-serif;
@@ -37,19 +42,43 @@ div.contant-link h1 {
 }
 .img-sec img {
   height: 600px;
-  width: 500px;
+  width: 400px;
   position: absolute;
   right: 100px;
   top: 50px;
   border-radius: 10px;
 }
-
+.division1-left-container {
+  height: 500px;
+  display: inline-block;
+  position: absolute;
+  top: 50px;
+  left: 150px;
+  text-align: center;
+}
+h1.amount-content {
+  font-style: none;
+  font-size: 20px;
+}
+h1.amount-content u {
+  font-style: solid;
+  font-size: 25px;
+}
+div input {
+  width: 400px;
+  height: 5px;
+  background-color: black;
+}
+.range-ele {
+  margin: 20px 0px;
+}
 /* division2 styling */
 .division2 {
   height: 500px;
   background-color: #f7f7f7;
   border-bottom: solid;
   border-color: #f7f7f7;
+  font-family: "Montserrat", sans-serif;
 }
 div.flex-container {
   display: flex;
