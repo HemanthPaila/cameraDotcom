@@ -39,6 +39,7 @@ div.content-link .amount {
 .division1 h1 {
   font-family: "Montserrat", sans-serif;
   width: 500px;
+  margin-top: 5px;
 }
 .img-sec img {
   height: 600px;
@@ -49,7 +50,7 @@ div.content-link .amount {
   border-radius: 10px;
 }
 .division1-left-container {
-  height: 500px;
+  /* height: 500px; */
   display: inline-block;
   position: absolute;
   top: 50px;
@@ -71,6 +72,12 @@ div input {
 }
 .range-ele {
   margin: 20px 0px;
+}
+.highlight {
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #073d6b;
 }
 /* division2 styling */
 .division2 {
