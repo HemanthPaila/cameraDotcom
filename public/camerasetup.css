@@ -1,0 +1,22 @@
+/* form styling */
+form {
+  height: 700px;
+  width: 1000px;
+  background-color: #f7f7f7;
+  margin: 0px auto 0px auto;
+  border-radius: 30px;
+}
+form h1 {
+  font-family: "Montserrat", sans-serif;
+  /* border-top-right-radius: 30px;
+  border-top-left-radius: 30px; */
+  padding-left: 10px;
+}
+.form-content div {
+  display: inline-block;
+}
+div button {
+  border-width: 1px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+}
