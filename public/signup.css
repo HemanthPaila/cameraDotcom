@@ -1,0 +1,85 @@
+/* login page styling */
+.container {
+  display: flex;
+  border-radius: 30px;
+}
+.left-container {
+  width: 50%;
+  height: 729px;
+  background-image: url("/images/login-background.png");
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.right-container {
+  width: 50%;
+  height: 729px;
+  background-color: #f7f7f7;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  position: relative;
+}
+.login-container {
+  height: 729px;
+  width: 80%;
+  position: absolute;
+  left: 10%;
+}
+.login-container h1 {
+  font-family: sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+.greetings h2 {
+  font-family: sans-serif;
+  text-align: center;
+  color: rgb(139, 142, 144);
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+.label h3 {
+  font-family: sans-serif;
+  color: rgb(139, 142, 144);
+  margin-left: 80px;
+}
+.input-field input {
+  width: 400px;
+  height: 35px;
+  border-style: solid;
+  border-width: 0px 0px 3px 0px;
+  background-color: #f7f7f7;
+  margin-left: 80px;
+}
+.input-field p {
+  margin-left: 80px;
+  font-family: sans-serif;
+  color: red;
+  font-size: 10px;
+  visibility: hidden;
+}
+.forget-pass h6 {
+  font-family: sans-serif;
+  color: rgb(139, 142, 144);
+  text-align: right;
+  padding-right: 120px;
+}
+.button .container1 button {
+  height: 40px;
+  width: 200px;
+  border-radius: 30px;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-left: 200px;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+.new-user h4 {
+  font-family: sans-serif;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+.copy-right {
+  font-family: sans-serif;
+  margin-left: 250px;
+  display: inline;
+}
