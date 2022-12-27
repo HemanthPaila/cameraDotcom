@@ -32,6 +32,7 @@ li.nav-item:hover {
   width: 100px;
   background-color: lightblue;
   border-radius: 20px;
+  border-color: lightblue;
 }
 .button-container {
   position: absolute;
@@ -44,7 +45,7 @@ li.nav-item:hover {
 }
 /* cards styling */
 .card {
-  height: 400px;
+  height: 500px;
   width: 300px;
   border-radius: 30px;
   border-style: solid;
@@ -61,8 +62,16 @@ li.nav-item:hover {
   border-top-right-radius: 30px; */
   border-radius: 30px 30px;
 }
+.data button {
+  width: 250px;
+  margin-left: 20px;
+  margin-top: 10px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #f7f7f7;
+}
 .container-body {
-  height: 150px;
+  height: 250px;
   width: 300px;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;

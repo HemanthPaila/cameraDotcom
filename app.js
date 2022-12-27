@@ -23,6 +23,12 @@ app.get("/camerasetup", function (req, res) {
 app.get("/profile", function (req, res) {
   res.render("profile");
 });
+app.get("/checknow", function (req, res) {
+  res.render("checknow");
+});
+app.get("/booknow", function (req, res) {
+  res.render("booknow");
+});
 app.get("/menu", function (req, res) {
   connection.query("select * from profile", function (error, result, fields) {
     if (!error) {
