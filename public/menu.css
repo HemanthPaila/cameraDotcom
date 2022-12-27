@@ -1,0 +1,87 @@
+/* navigation bar styling */
+li.nav-item {
+  margin-left: 25px;
+}
+nav.navbar {
+  border-bottom: solid;
+  border-color: #f7f7f7;
+}
+ul.navbar-nav {
+  margin-right: 25px;
+}
+
+a.navbar-brand {
+  margin-left: 130px;
+}
+li.nav-item:hover {
+  border-radius: 20px;
+  background-color: #f7f7f7;
+  color: black;
+}
+/* filter div styiling */
+.filter {
+  height: 50px;
+  margin-top: 30px;
+  position: relative;
+  border-color: #f7f7f7;
+  border-style: solid;
+}
+.filter button {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 100px;
+  background-color: lightblue;
+  border-radius: 20px;
+}
+.button-container {
+  position: absolute;
+  right: 50px;
+}
+/* cards div styling */
+.cards {
+  width: 100%;
+  margin-top: 30px;
+}
+/* cards styling */
+.card {
+  height: 400px;
+  width: 300px;
+  border-radius: 30px;
+  border-style: solid;
+  border-width: 1px;
+  margin-left: 55px;
+  margin-top: 20px;
+  display: inline-block;
+}
+.top-container {
+  height: 250px;
+  width: 300px;
+  background-color: lightskyblue;
+  /* border-top-left-radius: 30px;
+  border-top-right-radius: 30px; */
+  border-radius: 30px 30px;
+}
+.container-body {
+  height: 150px;
+  width: 300px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.data h2 {
+  font-family: sans-serif;
+  margin-left: 10px;
+}
+body {
+  position: relative;
+}
+.container {
+  border-radius: 30px;
+  height: 730px;
+  width: 1000px;
+  background-color: whitesmoke;
+  position: absolute;
+  left: 200px;
+  top: 40px;
+  opacity: 1;
+  visibility: hidden;
+}

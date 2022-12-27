@@ -23,6 +23,16 @@ app.get("/camerasetup", function (req, res) {
 app.get("/profile", function (req, res) {
   res.render("profile");
 });
+app.get("/menu", function (req, res) {
+  connection.query("select * from profile", function (error, result, fields) {
+    if (!error) {
+      res.render("menu", { data: result });
+    } else {
+      res.redirect("/");
+    }
+    res.end();
+  });
+});
 app.post("/update", function (req, res) {
   var data = {
     name: req.body.name,
@@ -41,7 +51,10 @@ app.post("/update", function (req, res) {
 app.get("/login", function (req, res) {
   res.render("login");
 });
-app.post("/signup", function (req, res) {
+app.get("/signuppage", function (req, res) {
+  res.render("signup");
+});
+app.post("/signin", function (req, res) {
   var username = req.body.username;
   var password = req.body.password;
   connection.query(
@@ -49,15 +62,15 @@ app.post("/signup", function (req, res) {
     [username, password],
     function (error, result, fields) {
       if (result.length > 0) {
-        res.render("signin");
+        res.render("home");
       } else {
-        res.redirect("/");
+        res.render("login");
       }
       res.end();
     }
   );
 });
-app.post("/signin", function (req, res) {
+app.post("/signup", function (req, res) {
   var username = req.body.username;
   var password = req.body.password;
   connection.query(
@@ -65,9 +78,26 @@ app.post("/signin", function (req, res) {
     [username, password],
     function (error, result, fields) {
       if (!error) {
-        res.redirect("/home");
+        res.render("login");
       } else {
         res.redirect("/");
+      }
+      res.end();
+    }
+  );
+});
+app.post("/add", function (req, res) {
+  var name = req.body.name;
+  var age = req.body.age;
+  var sex = req.body.sex;
+  connection.query(
+    "insert into profile (name,age,sex) values(?,?,?)",
+    [name, age, sex],
+    function (error, result, fields) {
+      if (!error) {
+        res.redirect("/menu");
+      } else {
+        res.render("/");
       }
       res.end();
     }
