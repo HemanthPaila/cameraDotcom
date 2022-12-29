@@ -70,7 +70,7 @@
     <div class="filter">
         <div class="button-container">
             <button type="button" onclick="enable()">ADD</button>
-            <button type="button">Filter</button>
+            <button type="button" onclick="enable1()">Filter</button>
         </div>
     </div>
     <!-- division to render all cards presented in the database -->
@@ -98,22 +98,26 @@
     <div class="container">
       <form method="post" action="/add">
         <div>
-        <h2>Enter your name</h2>
+          <h1>Lorem ipsem</h1>
+        </div>
+      <div class="body-container">
+      <div>
+        <h2>Enter your name</h2><br/>
       </div>
       <div>
-        <input type="text" required name="name"/>
+        <input type="text" required name="name"/><br/>
       </div>
       <div>
-        <h2>Enter your age</h2>
+        <h2>Enter your age</h2><br/>
       </div>
       <div>
-        <input type="number" required name="age"/>
+        <input type="number" required name="age"/><br/>
       </div>
       <div>
-        <h2>Enter your sex</h2>
+        <h2>Enter your sex</h2><br/>
       </div>
       <div>
-        <input type="text" required name="sex"/>
+        <input type="text" required name="sex"/><br/>
       </div>
       <div>
         <a href="#" onclick="disable()"><button type="submit">ADD</button></a>
@@ -121,9 +125,13 @@
       <div>
         <a href="#" onclick="disable()"><button type="button">cancel</button></a>
       </div>
+      </div>
       </form>
     </div>
-    <script src="./script/menu.js"></script>
     </div>
+    <div class="container1">
+      <a href="#" onclick="disable1()"><button type="button">cancel</button></a>
+    </div>
+    <script src="./script/menu.js"></script>
   </body>
 </html>
